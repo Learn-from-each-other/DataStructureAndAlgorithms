@@ -1,0 +1,67 @@
+	"head":{
+		"content-length":"481",
+		"pkgType":"dgjson",
+		"method_type":"POST",
+		"query":"",
+		"version":"0.1",
+		"url":"http://10.2.1.27:8020/",
+		"busiseqno":"G012720191028000005496018",
+		"application":"comm_onl",
+		"service":"br5311",
+		"host":"10.2.1.27:8020",
+		"content-type":"application/json; charset=utf-8",
+		"callseqno":"20191028721412364",
+		"serviceId":"br5311",
+		"apiId":"br5311",
+		"group":"0",
+		"consumersrvid":null,
+		"servicecode":"br5311",
+		"profile":{}},
+		"body":{
+			"input":{
+				"qry_cnt_num":"1",
+				"strt_cnt_num":"0",
+				"org_code":"0019996041"
+			}
+
+
+{
+	"header":{
+		"Action":"http://www.dongguanbank.cn/S0130013/15",
+		"Address":"0127",
+		"MyBank":"001",
+		"SrcSysId":"0127",
+		"GloSeqNo":"G012720191028000005496018",
+		"VrsNo":"100",
+		"ReqNo":"20191028721412364",
+		"BrNo":"0019996041",
+		"ZoneNo":"0019900000",
+		"SrcIP1":null,
+		"SrcIP2":null,
+		"SrcCalCod":"CNT",
+		"SrcDate":"20190903",
+		"GloEndTime":"",
+		"SrcTime":"100612",
+		"TellerNo":"001003993",
+		"TellerTp":"0",
+		"ScnNo":"10"
+	},
+	"sys":{
+		"prcscd":"br5311"
+		},
+	"comm_req":{
+		"glbl_rung_num":"G012720191028000005496018",
+		"txn_code":"br5311",
+		"lgl_pern_code":"001",
+		"txn_tlr":"001003993",
+		"exte_dt":"20190903",
+		"rqst_sys_id":"0127",
+		"br_code":"0019900000",
+		"chnl_code":"CNT",
+		"txn_org":"0019996041",
+		"exte_rung_num":"20191028721412364",
+		"orig_sys_id":"0127"
+	}
+}
+
+{"head":{"pckgsq":"00000000","erortx":"交易成功","erorcd":"AAAAAAAAAA","status":"S"},"body":{"sys":{"erortx":"交易成功","erorcd":"AAAAAAAAAA","status":"S"},"comm_res":{"totl_cnt_num":1,"tishxinx":[],"wrng_info":[],"txn_dt_8":"20191012","cjsfsvrlst":[]},"output":{"rept_route":null,"lstBr5364out":[{"wait_deal_busi_num":"","wait_deal_busi_nm":"机构日终限额","ccy_code_num":null,"txn_amt":"0.00","wait_deal_ste_nm":"机构日终余额40400735242.53大于机构日终限额0.00","hint_info":"是","chins_comt":"机构日终限额","org_code":"0010102301","wthr_flg":"1","tlr_rung_num":null,"tlr_code_num":null,"comt_info":"机构事项"}]},"printer":{},"header":{"Action":"http://www.dongguanbank.cn/S0130013/05","Address":"0310","MyBank":"001","SrcSysId":"0127","GloSeqNo":"G012720191209000008654630","VrsNo":"100","ReqNo":"C0310201912090029779378","BrNo":"0010102301","ZoneNo":"0019900000","SrcIP1":null,"SrcIP2":null,"SrcCalCod":"CNT","SrcDate":"20191209","GloEndTime":"","SrcTime":"192836","TellerNo":"001005052","TellerTp":"0","ScnNo":"10"}}}
