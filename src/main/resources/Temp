@@ -27,7 +27,7 @@
 
 {
 	"header":{
-		"Action":"http://www.dongguanbank.cn/S0130013/15",
+		"Action":"",
 		"Address":"0127",
 		"MyBank":"001",
 		"SrcSysId":"0127",
